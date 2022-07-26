@@ -16,7 +16,7 @@ async function translate(){
     }
     else if(inputText.length >= 1){
             errorMsg.innerHTML="";
-            output.innerHTML = `<p>Translating....</p>`;       
+            output.innerHTML = `<p>Translating....</p>`;     
     }
     const languageOptions  = Array.from(options).find((option) => option.checked);
     const language = languageOptions.value;
