@@ -145,3 +145,65 @@ box-shadow: inset 0 0 0 6px var(--primary);
     font-weight: bold;
     margin-top: 30px;
 }
+.text-area, .output-text{
+    /* position: relative;
+    color: #fff;
+    width: 90%;
+    height: 15rem;
+    overflow-y: auto;
+    resize: none;
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-family: var(--font);
+    background-color: #1b1b1b;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    outline: none; */
+}
+#res-translate-btn > .helper{
+    display: none;
+}
+/* responsive */
+@media only screen and (max-width: 600px){
+    .header div{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    #translate-btn > .helper{
+        display: none;
+    }
+    #res-translate-btn > .helper{
+        background-color: var(--primary);
+        cursor: pointer;
+        text-transform: uppercase;
+        display: block;
+    }
+    #res-translate-btn > .helper:hover{
+        background-color: rgb(56, 45, 214);
+    }
+    .card-container{
+        width: 90%;
+        margin: auto;
+        height: max-content;
+    }
+    .text-area, .output-text{
+        position: relative;
+        color: #fff;
+        width: 90%;
+        height: 20rem;
+        overflow-y: auto;
+        resize: none;
+        padding: 10px;
+        font-size: 14px;
+        font-family: var(--font);
+        background-color: #1b1b1b;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        outline: none;
+    }
+}
