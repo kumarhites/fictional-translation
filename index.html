@@ -21,35 +21,36 @@
           <div class="selection">
             <p class="helper">Select Languages</p>
             <div class="options">
-              <label for="f-option" class="l-radio">
-                <input type="radio" id="f-option" name="selector" tabindex="1">
-                <span>Dolan</span>
+              <label for="dolan" class="l-radio active">
+                <input type="radio" id="dolan" name="language-selector" tabindex="1" value="dolan" checked>
+                <span class="lang">Dolan</span>
               </label>
-              <label for="s-option" class="l-radio">
-                <input type="radio" id="s-option" name="selector" tabindex="2" checked="checked">
-                <span>Groot</span>
+              <label for="groot" class="l-radio">
+                <input type="radio" id="groot" name="language-selector" tabindex="2" value="groot">
+                <span class="lang">Groot</span>
               </label>
-                <label for="t-option" class="l-radio">
-                <input type="radio" id="t-option" name="selector" tabindex="3">
-                <span>Hodor</span>
+                <label for="hodor" class="l-radio">
+                <input type="radio" id="hodor" name="language-selector" tabindex="3" value="hodor">
+                <span class="lang">Hodor</span>
               </label>
               </label>
-                <label for="fourth-option" class="l-radio">
-                <input type="radio" id="fourth-option" name="selector" tabindex="4">
-                <span>Vulcan</span>
+                <label for="vulcan" class="l-radio">
+                <input type="radio" id="vulcan" name="language-selector" tabindex="4" value="vulcan">
+                <span class="lang">Vulcan</span>
               </label>
             </div>
           </div>
         </div>
         <div class="card-container">
           <div id="english">
-            <textarea class="text-area" id="translate-input" placeholder="Put your message which you want to translate"></textarea>
+            <textarea class="text-area" id="translate-input" placeholder="Text" value="200"></textarea>
             <div id="res-translate-btn">
-              <button class="helper">Translate</button>
+              <p class="error"></p>
+              <button class="helper" id="btn">Translate</button>
             </div>
           </div>       
           <div class="output-area" id="translate-output">
-            Output
+            Translation
           </div>                 
         </div>
       </main>
