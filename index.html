@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fictional Translator</title>
+</head>
+<body>
+    <header class="header">
+      <div>
+        <h1>Fictional <span class="dim">Translator</span></h1>
+      </div>
+      </header>
+      <main class="container">
+        <div class="radio-btn">
+          <div class="selection">
+            <p class="helper">Select Languages</p>
+            <div class="options">
+              <label for="f-option" class="l-radio">
+                <input type="radio" id="f-option" name="selector" tabindex="1">
+                <span>Dolan</span>
+              </label>
+              <label for="s-option" class="l-radio">
+                <input type="radio" id="s-option" name="selector" tabindex="2" checked="checked">
+                <span>Groot</span>
+              </label>
+                <label for="t-option" class="l-radio">
+                <input type="radio" id="t-option" name="selector" tabindex="3">
+                <span>Hodor</span>
+              </label>
+              </label>
+                <label for="fourth-option" class="l-radio">
+                <input type="radio" id="fourth-option" name="selector" tabindex="4">
+                <span>Vulcan</span>
+              </label>
+            </div>
+          </div>
+          <div id="translate-btn">
+            <button class="helper">Translate</button>
+          </div>
+        </div>
+        <div class="card-container">
+          <div id="english">
+            <textarea class="text-area" id="translate-input" placeholder="Put your message which you want to translate"></textarea>
+          </div>       
+          <div class="output-text" id="translate-output">
+            Output
+          </div>                 
+        </div>
+      </main>
+      <footer class="footer">
+        <p id="foot-heading">About</p>
+        <p class="about-text">
+          Translate whatever you like to your selected langauge
+        </p>
+      </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
