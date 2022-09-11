@@ -122,7 +122,7 @@ body{
 .card-container{
     background-color: rgb(34, 34, 34);
     border-radius: 20px;
-    height: 60vh;
+    height: max-content;
     overflow: hidden;
     padding: 20px;
     /* display: flex; */
@@ -203,6 +203,7 @@ body{
         text-align: center;
     }
     .container{
+        height: 100%;
         width: 100%;
         margin: auto;
     }
@@ -218,7 +219,7 @@ body{
     .card-container{
         width: 90%;
         margin: auto;
-        height: max-content;
+        height: 150%;
     }
     .text-area{
         position: relative;
@@ -235,4 +236,21 @@ body{
         border-radius: 10px;
         outline: none;
     }
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.socials > #foot-heading{
+    margin-bottom: 10px;
+}
+.socials ul{
+    display: flex;
+    gap: 2rem;
+}
+.socials ul li{
+    list-style: none;
 }
