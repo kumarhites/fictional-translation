@@ -1,7 +1,7 @@
 
 # Fictional  Translator
 
-#Fictional  Translator app is made using vanilla javascript. I have used api [Minion api](https://funtranslations.com/) from fun translations and fetch data through `fetch` and learnt DOM methods like addlistener, click function 
+#Fictional  Translator app is made using vanilla javascript. I have used [API](https://funtranslations.com/) from fun translations and fetch data through `fetch` and learnt DOM methods like addlistener, click function 
 
 ![Screenshot](screenshot.PNG)
 
