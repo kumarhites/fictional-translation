@@ -27,7 +27,7 @@ To clone and run this application, you'll need  [Git](https://git-scm.com/)  and
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/kumarhites/fictional-translation.git
 
 # Go into the repository
 $ cd minion-translator
